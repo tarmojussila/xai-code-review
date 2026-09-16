@@ -1,6 +1,6 @@
 {
   "name": "xai-code-review",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AI-powered code review GitHub Action using xAI Grok",
   "main": "dist/index.js",
   "scripts": {

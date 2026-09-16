@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Code Review
-        uses: tarmojussila/xai-code-review@v0.1.0
+        uses: tarmojussila/xai-code-review@v0.1.1
         with:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
 ```
@@ -90,7 +90,7 @@ Instead of using default values for `XAI_MODEL`, `XAI_SYSTEM_PROMPT`, and `XAI_R
 
 ```yaml
       - name: Code Review
-        uses: tarmojussila/xai-code-review@v0.1.0
+        uses: tarmojussila/xai-code-review@v0.1.1
         with:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
           XAI_MODEL: ${{ vars.XAI_MODEL }}
